@@ -1,7 +1,12 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+   <router-view/>
+   <ul class="list-unstyled list-inline"> 
+      <li><router-link to="/">Go to Home</router-link></li>
+      <li><router-link to="/about">Go to About</router-link></li>
+      <li><router-link to="/subscriptions">Go to Subscriptions</router-link></li>
+      <li><router-link to="/contact">Go to Contact</router-link></li>
+    </ul>
   </div>
 </template>
 
